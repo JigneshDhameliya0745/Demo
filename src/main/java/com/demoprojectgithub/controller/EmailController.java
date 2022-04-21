@@ -40,7 +40,7 @@ boolean result=false;
 				return ResponseEntity.ok("Email Sent Successfully");
 			}
 			else {
-				return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).body("Email not sent");
+				return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).body("Email not sent!");
 			}
 			
 		}
