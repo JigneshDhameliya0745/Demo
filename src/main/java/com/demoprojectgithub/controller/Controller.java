@@ -8,7 +8,7 @@ public class Controller {
 
 	@PostMapping("/emp")
 	public String employee() {
-		return "pos work";
+		return "post works";
 
 	}
 
